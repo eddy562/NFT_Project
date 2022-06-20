@@ -26,6 +26,9 @@ const App= ()=> {
     InterLight: require("./assets/fonts/Inter-Light.ttf"),
 
   });
+
+  if (!loaded) return null;
+  
   return (
     <NavigationContainer theme={theme}>
 
